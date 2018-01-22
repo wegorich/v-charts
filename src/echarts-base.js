@@ -1,6 +1,9 @@
 import echarts from 'echarts/lib/echarts'
 import 'echarts/lib/component/tooltip'
 import 'echarts/lib/component/legend'
+import 'echarts/lib/component/dataZoom'
+import 'echarts/lib/component/markLine'
+import 'echarts/lib/component/markPoint'
 
 echarts.registerTheme('ve-chart', {
   categoryAxis: {
